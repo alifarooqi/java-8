@@ -15,6 +15,11 @@ public class Main {
 
         java.sql.Date d2 = new java.sql.Date(123123123);
 
+        int Boolean = 12;
+        System.out.println(Boolean);
+
+        String a = "jasd";
+
     }
 
 }
