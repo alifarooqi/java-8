@@ -20,6 +20,13 @@ public class Main {
 
         String a = "jasd";
 
+        TestClass t = new TestClass();
+        t.a = 100; // Write
+        t.b = 50; // Write
+        System.out.println(t.a + t.b); // Read
+        new TestClass();
+        t.TestClass();
+
     }
 
 }

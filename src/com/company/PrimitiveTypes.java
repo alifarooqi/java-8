@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Date;
+
 public class PrimitiveTypes {
     public static void main(String[] args) {
         boolean a = false;
@@ -27,6 +29,11 @@ public class PrimitiveTypes {
         int base8 = 077; // with 0 as prefix
         int hexa = 0x77; // with 0x as prefix
         int binary = 0b10; // with 0b as prefix
+
+        Date x; // defaults to null
+
+        Date y = new Date();
+        y = null; // Reassign the reference variables to null
 
     }
 }
