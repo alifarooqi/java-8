@@ -4,6 +4,8 @@ public class TestClass {
     int a;
     int b;
 
+    protected int c;
+
     public TestClass() {
         System.out.println("This is a constructor");
     }

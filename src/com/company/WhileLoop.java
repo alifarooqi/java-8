@@ -16,5 +16,7 @@ public class WhileLoop {
             y++;
         } while (y < 5);
 
+        System.out.println(StaticKeyword.count);
+
     }
 }
