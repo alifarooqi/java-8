@@ -43,6 +43,11 @@ public class Main {
         CatFamily cf1 = (CatFamily) a1;
         Dog d = (Dog) a1;
 
+        Animal an;
+
+//        System.out.println(an.averageAge);
+
+
 
 
 

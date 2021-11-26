@@ -14,12 +14,12 @@ public class Main {
         CatFamily      l2 = new Lion();
         Lion           l3 = new Lion();
 
-        l1.printAnimal();
-        l1.printFurType();
-        l1.hunt();
-
-        l2.printFurType();
-        l2.hunt();
+//        l1.printAnimal();
+//        l1.printFurType();
+//        l1.hunt();
+//
+//        l2.printFurType();
+//        l2.hunt();
 
         l3.hunt();
 

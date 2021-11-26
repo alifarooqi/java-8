@@ -21,6 +21,10 @@ public class IntDog extends SuperClass implements InterfaceAnimal, LivingCreatur
         return 0;
     }
 
+    public static void someStaticMethod() {
+        System.out.println("Some Static Method");
+    }
+
     // Default methods don't have to be implemented
 //    public void donotTouch() {
 //        InterfaceAnimal.super.donotTouch();

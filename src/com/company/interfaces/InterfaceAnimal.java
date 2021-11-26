@@ -22,9 +22,16 @@ public interface InterfaceAnimal {
     };
 */
 
+    // `default` is not the access modifier
     default void donotTouch(){
         System.out.println("Don't touch my computer");
     }
+
+    // Static methods are not abstract
+    public static void helloWorld() {
+        System.out.println("Hello World");
+    }
+
 
 
 }

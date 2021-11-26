@@ -12,13 +12,22 @@ public class Main {
     public static void main(String... a){
         System.out.println(InterfaceAnimal.count);
 
-        IntDog d = new IntDog();
 //        d.printSuperClassMethod(); // SuperClass
 //        d.printAnimal(); // AnimalInterface (body in IntDog)
 //        d.donotTouch(); // AnimalInterface (default)
 //        System.out.println(d.age);
 
-        printAnimalPicture(d);
-        printLivingAge(d);
+//        printAnimalPicture(d);
+//        printLivingAge(d);
+
+        InterfaceAnimal.helloWorld();
+
+        IntDog d = new IntDog();
+//        d.helloWorld();
+//        IntDog.helloWorld();
+
+        IntDog.someStaticMethod();
+        d.someStaticMethod();
+
     }
 }

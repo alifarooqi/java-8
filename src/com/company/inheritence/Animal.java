@@ -26,4 +26,8 @@ public class Animal {
         return new Animal();
     }
 
+    public String toString(){
+        return "Animal: " + this.picture + ", " + this.averageAge;
+    }
+
 }
